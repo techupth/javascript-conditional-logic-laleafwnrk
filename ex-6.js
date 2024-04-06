@@ -1,10 +1,12 @@
-let favoriteBooks = [];
+let favoriteBook = []
 
-function addFavoriteBook(bookName) {
-  // Start coding here !
+function addFavoriteBook(bookName){
+    if (favoriteBook == bookName.includes("Beauty")){
+        return favoriteBook;
+    }
+return favoriteBook;
 }
 
-// Example case
 addFavoriteBook("Let Me Tell You What I Mean");
 addFavoriteBook("Life Among the Terranauts");
 addFavoriteBook("The Beauty of Living Twice");
